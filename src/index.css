@@ -190,30 +190,7 @@ footer a:hover{
  }
  .notification-content
 
- /* jobapplication */
- .job{
-  width: 100vw;
-  align-items: center;
-   display: flex;
-   flex-direction: column;
-   margin-top: 100px;
-   height: 80vh;
-   justify-content: center;
- }
- 
 
-.job h2 {
-  margin-bottom: 20px;
-}
-
-.job ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.job li {
-  margin-bottom: 20px;
-}
 
 .job-application {
   padding: 20px;

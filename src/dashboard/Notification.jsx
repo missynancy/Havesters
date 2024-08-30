@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function Notifications() {
+function Notification() {
   const [notifications, setNotifications] = useState([]);
   const [newNotification, setNewNotification] = useState('');
 
@@ -58,5 +58,4 @@ function Notifications() {
     </div>
   );
 }
-
-export default Notifications;
+export default Notification
