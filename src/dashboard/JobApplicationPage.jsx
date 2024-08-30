@@ -62,40 +62,44 @@ function JobApplicationPage() {
           ) : (
             <form onSubmit={handleSubmit}>
               <label>
-                Name:
                 <input
                   type="text"
                   value={applicantName}
                   onChange={(e) => setApplicantName(e.target.value)}
+                  placeholder='Names...'
                   required
                 />
+                Name:
               </label>
               <label>
-                Email:
                 <input
                   type="email"
                   value={applicantEmail}
                   onChange={(e) => setApplicantEmail(e.target.value)}
+                  placeholder='Email...'
                   required
                 />
+                Email:
               </label>
               <label>
-                NHIF Number:
                 <input
                   type="text"
                   value={nhifNumber}
                   onChange={(e) => setNhifNumber(e.target.value)}
+                  placeholder='NHIF...'
                   required
                 />
+                NHIF Number:
               </label>
               <label>
-                NSSF Number:
                 <input
                   type="text"
                   value={nssfNumber}
                   onChange={(e) => setNssfNumber(e.target.value)}
+                  placeholder='NSSF...'
                   required
                 />
+                NSSF Number:
               </label>
               <button type="submit">Submit Application</button>
             </form>

@@ -170,6 +170,25 @@ footer a:hover{
    height: 80vh;
    justify-content: center;
  }
+ .notification input{
+  margin-top: 20px;
+  padding: 5px 10px;
+  width: 70%;
+  font-size: large;
+  border-radius: 10px;
+  margin-bottom: 30px;
+ }
+ .notification-content{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+ }
+ .notification-content ul li{
+  list-style: none;
+ }
+ .notification-content
 
  /* jobapplication */
  .job{

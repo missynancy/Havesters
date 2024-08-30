@@ -20,7 +20,7 @@ function Login() {
 
     if (email === storedEmail && password === storedPassword) {
       alert('Login successful!');
-      navigate('/dashboard');
+      navigate('/applications');
 
       // Notify the server to send an email notification
       try {
