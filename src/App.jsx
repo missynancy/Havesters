@@ -9,6 +9,7 @@ import Login from './components/Login';
 import Register from './components/Register';
 import JobApplicationPage from './dashboard/JobApplicationPage';
 
+
 function App() {
   return (
     <Router>
